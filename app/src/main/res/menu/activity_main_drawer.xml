@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_action_food1"
+            android:title="@string/nav_food" />
+        <item
+            android:id="@+id/nav_Fashion"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/nav_fashion" />
+        <item
+            android:id="@+id/nav_Electronics"
+            android:icon="@drawable/ic_action_electronics"
+            android:title="@string/nav_electronics" />
+        <item
+            android:id="@+id/nav_home_furn"
+            android:icon="@drawable/ic_action_furniture"
+            android:title="@string/nav_home_furn" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_action_books"
+            android:title="@string/nav_books" />
+        <item
+            android:id="@+id/nav_medicine"
+            android:icon="@drawable/ic_action_med"
+            android:title="@string/nav_medicine" />
+        <item
+            android:id="@+id/nav_utilities"
+            android:icon="@drawable/ic_action_utility"
+            android:title="@string/nav_utilities" />
+
+    </group >
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_accunt"
+            android:icon="@drawable/ic_action_account"
+            android:title="@string/nav_account" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_action_about"
+            android:title="About"/>
+
+    </group>
+
+
+
+
+</menu>
